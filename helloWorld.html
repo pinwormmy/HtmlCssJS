@@ -1,25 +1,30 @@
 <!doctype html>
 <html lang="ko">
     <head>
-        <p style="font-size: 64px; font-weight: 100;"> 요충이 홈페이지 공부 </p>
         <style>
             *{
                 font-family: 'IBM Plex Sans KR';
                 font-size: 18px;
                 font-weight: 200;
-            }
-
-            nav ol{
-                background-color: rgb(27, 25, 25);
-                padding: 6px;
-                
+                line-height: 24px;
+                padding: 0px;
             }
 
             nav li{
                 display: inline;
-                font-size: 15px;
+                font-size: 20px;
+                
+                padding: 10px;
+            }
+
+            header{
+                height: 75px;
+                padding: 2px;
                 color: beige;
-                padding: 6px;
+                background: rgb(36, 35, 35);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
             }
 
             @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap');
@@ -31,35 +36,47 @@
     </head>
     <body>
 
-        <nav>
-            <ol>
-                <li>메뉴1</li>
-                <li>테스트2</li>
-                <li>테스트3</li>
-                <li>테스트4</li>
-                <li>테스트5</li>
-            </ol>
-        </nav>
+        <header>
+            <h1 style="font-size: 44px; font-weight: 100;"> 요충이 홈페이지 공부 </h1>
+            <nav>
+                <ol>
+                    <li>메뉴1</li>
+                    <li>테스트2</li>
+                    <li>테스트3</li>
+                    <li>테스트4</li>
+                    <li>테스트5</li>
+                </ol>
+            </nav>
+        </header>
+  
+        <div style="font-size: 64px; font-weight: 100; padding: 24px; line-height: 10px;">
+            <img src="https://coinpan.com/files/attach/images/198/938/455/240/7951de5c2f6265eb2805a0a41e1227a4.jpg" style="vertical-align: top; height: 500px;">
+            그녀는 누구인가?
+        </div>
         
-        <img src="https://coinpan.com/files/attach/images/198/938/455/240/7951de5c2f6265eb2805a0a41e1227a4.jpg" height="500px">
+        
        
-        <p>html, CSS랑 같이 자바스크립트</p>
-        <span>스팬태그는 그냥 감싸기만 한다매?</span>
+        <p>
+            문워치의 장대한 역사가 시작되기 전부터 애초 모터레이싱 드라이버들을 위해 디자인된 만큼 브러시드 가공한 스틸 베젤부에 타키미터 눈금과 
+            유명한 도트 장식- Dot Over Ninety(DON)- 을 새겼는데요. 레이저 각인 후 블랙 에나멜 도료를 채워 고온의 가마에 구워내는 
+            그랑 푀 방식으로 마무리해 오랫동안 원형의 모습을 간직할 수 있도록 했습니다. 
+            무브먼트는 최초의 스피드마스터 모델 CK2915을 포함한 역사적인 문워치에도 사용된 전설적인 수동 크로노그래프 칼리버 321을 
+            현대적으로 완벽하게 부활시킨 동명의 칼리버를 탑재했습니다. 지난 2019년 42mm 플래티넘 모델로 첫 선을 보인 후 이듬해 39.7mm 스틸 모델에도 321을 탑재한 바 있지요. 
+            오리지널 무브먼트 도면을 바탕으로 작은 부품 하나하나까지 완벽하게 복원, 현대적으로 업그레이드시켰습니다. 
+            오리지널 321처럼 붉은 톤이 도는 플레이트와 브릿지는 18K 세드나™ 골드 PVD 코팅 마감한 것입니다. 
+            반면 컬럼휠과 클러치 레버 등 주요 크로노그래프 부품들은 브러시드 가공한 스틸 소재 본연의 색상을 띠고 있습니다. 
+            그리고 밸런스 스프링은 전통적인 브레게 오버코일을 사용해 실리콘 밸런스 스프링을 도입하면서 마스터 크로노미터(Master Chronometer) 인증을 
+            받는 최근의 3861 칼리버와는 또 다른 지향점을 보여줍니다. 시간당 진동수는 오리지널 321과 마찬가지로 2.5헤르츠(18,000Vph)이며, 파워리저브는 최대 55시간을 보장합니다. 
+            사파이어 크리스탈 케이스백을 통해 역사적이고 아름다운 321 칼리버의 모습을 감상할 수 있습니다. 참고로 방수 사양은 60m.  
+            스피드마스터 칼리버 321 카노푸스 골드™ 신제품(Ref. 311.50.39.30.01.001)은 리미티드 에디션은 아니지만 321 모델 특성상 연간 매우 소량씩만 제작 출시되며, 
+            전 세계 주요 오메가 부티크에서 만나볼 수 있습니다. 국내 출시 가격은 1억 490만 원으로 책정됐습니다. 존나 비싸네...
+        </p>
        
-
-       다시 연동 됐나? <br>
-       폰트 크기 굵기해가지고 간지나게 옛날 애플 홈페이지 느낌으로 깔쌈하게<br>
-       <p>바로 이렇게! 고딕체로 적용 완료</p> <br>
-
        <hr>
 
-       그리고 프레임 구현. 일단 어떤거든 해보기 <br>
-
-       아예 애플홈페이지 따라 구현해보기!!
-        를 하려고 하나 피로누적으로뻗어버림...ㅜㅜ
-
-       <input type="button" value="테스트!!">
-
+        <p style="font-size: 12px; font-weight: 300;">
+            Copyright ⓒ 2022 ㅇㅇㅇ. 모든 권리 보유
+        </p>
     </body>
 
 </html>
